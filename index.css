@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.avatar {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 130px;
+    object-fit: contain;
+    
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+
+}
+
+.encabezado {
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 0px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.picture {
+    width: 359px;
+}
+
+.iconos {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 5px;
+}
+
+.logos {
+    width: 30px;
+    margin: 0 0px;
+    padding: 5px;
+}
+
+.comentarios {
+    display: flex;
+}
+
+.parrafo {
+    margin-top: 8px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.todo {
+    border: 8px solid black;
+    border-radius: 10px;
+    width: 375px;
+}
